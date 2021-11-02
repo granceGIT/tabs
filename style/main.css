@@ -1,0 +1,36 @@
+.container{
+    width: 70vw;
+    margin: 50px auto;
+}
+
+.tab-body,.tab-header__item{
+    border: 1px solid gray;
+}
+
+.tab-body__item{
+    display: none;
+    min-height: 100px;
+}
+
+.tab-body__item_active{
+    display: block;
+    padding: 10px;
+
+}
+
+.tab-header__item{
+    display: inline-block;
+    padding: 10px 20px;
+    min-width: 70px;
+
+    text-align: center;
+    border-bottom: transparent;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    cursor: pointer;
+}
+
+.tab-header__item_active{
+    background-color: rgb(0, 110, 255);
+    color:white;
+}
